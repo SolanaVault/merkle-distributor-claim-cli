@@ -4,8 +4,16 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anchor-client = "0.24"
 anyhow = "1.0.97"
+merkle-distributor = { version = "0.3.5",features = ["no-idl", "no-entrypoint"]}
+dotenvy = "0.15"
 reqwest = { version = "0.12.15", features = ["blocking", "json"] }
 serde = "1.0.219"
-solana-client = "2.2.6"
-solana-sdk = "2.2.2"
+solana-client = "1.9.13"
+solana-sdk = "1.9.13"
+hex = "0.4.3"
+spl-token = "8.0.0"
+serde_json = "1.0.140"
+spl-associated-token-account = {version = "6.0.0", features = ["no-entrypoint"] }
+serde_with = "3.12.0"

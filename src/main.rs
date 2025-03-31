@@ -165,7 +165,7 @@ fn claim_airdrop(client: &RpcClient, payer: Rc<dyn Signer>, distributor: Pubkey,
 
     let sig = builder.args(claim_args).accounts(claim_accounts).send()?;
 
-    println!("✅ Transaction sent!");
+    println!("✅ Claim succeeded!");
     println!("Signature: {:?}", sig);
 
     Ok(())

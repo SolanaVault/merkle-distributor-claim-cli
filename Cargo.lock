@@ -716,25 +716,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "claim-cli"
-version = "0.1.0"
-dependencies = [
- "anchor-client",
- "anyhow",
- "dotenvy",
- "hex",
- "merkle-distributor",
- "reqwest 0.12.15",
- "serde",
- "serde_json",
- "serde_with",
- "solana-client",
- "solana-sdk",
- "spl-associated-token-account 6.0.0",
- "spl-token 8.0.0",
-]
-
-[[package]]
 name = "clap"
 version = "2.34.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2275,6 +2256,25 @@ dependencies = [
  "anchor-lang",
  "anchor-spl",
  "vipers",
+]
+
+[[package]]
+name = "merkle-distributor-claim-cli"
+version = "0.1.0"
+dependencies = [
+ "anchor-client",
+ "anyhow",
+ "dotenvy",
+ "hex",
+ "merkle-distributor",
+ "reqwest 0.12.15",
+ "serde",
+ "serde_json",
+ "serde_with",
+ "solana-client",
+ "solana-sdk",
+ "spl-associated-token-account 6.0.0",
+ "spl-token 8.0.0",
 ]
 
 [[package]]

@@ -1,7 +1,11 @@
 [package]
-name = "claim-cli"
+name = "merkle-distributor-claim-cli"
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "md-claim" 
+path = "src/main.rs"
 
 [dependencies]
 anchor-client = "0.24"

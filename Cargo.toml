@@ -1,9 +1,10 @@
 [package]
 name = "merkle-distributor-claim-cli"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "GPL-3.0"
 description = "CLI tool for claiming merkle-distributor airdrops"
+repository = "https://github.com/SolanaVault/merkle-distributor-claim-cli"
 
 [[bin]]
 name = "md-claim" 
